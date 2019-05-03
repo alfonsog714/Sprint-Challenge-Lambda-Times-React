@@ -6,7 +6,7 @@ export const tabData = [
   "javascript",
   "technology",
   "node",
-  "react.js",
+  "rgit peact.js",
   "bootstrap"
 ];
 
