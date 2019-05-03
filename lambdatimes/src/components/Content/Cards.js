@@ -9,7 +9,7 @@ const Cards = props => {
           new Card component for each passing the card as the only prop*/}
       {/* {console.log(props.cards)} */}
       {props.cards.map(card => {
-        return <Card card={card} />;
+        return <Card card={card} key={Math.random()} />;
       })}
     </div>
   );
